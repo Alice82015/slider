@@ -12,3 +12,17 @@ C:\git\slider\slider\obj\Debug\slider.Properties.Resources.resources
 C:\git\slider\slider\obj\Debug\slider.csproj.GenerateResource.Cache
 C:\git\slider\slider\obj\Debug\slider.exe
 C:\git\slider\slider\obj\Debug\slider.pdb
+D:\Sourcetree\slider\slider\slider\bin\Debug\slider.exe.config
+D:\Sourcetree\slider\slider\slider\obj\Debug\slider.exe
+D:\Sourcetree\slider\slider\slider\obj\Debug\slider.pdb
+D:\Sourcetree\slider\slider\slider\bin\Debug\slider.exe
+D:\Sourcetree\slider\slider\slider\bin\Debug\slider.pdb
+D:\Sourcetree\slider\slider\slider\obj\Debug\slider.csprojResolveAssemblyReference.cache
+D:\Sourcetree\slider\slider\slider\obj\Debug\MainWindow.g.cs
+D:\Sourcetree\slider\slider\slider\obj\Debug\App.g.cs
+D:\Sourcetree\slider\slider\slider\obj\Debug\slider_MarkupCompile.cache
+D:\Sourcetree\slider\slider\slider\obj\Debug\slider_MarkupCompile.lref
+D:\Sourcetree\slider\slider\slider\obj\Debug\MainWindow.baml
+D:\Sourcetree\slider\slider\slider\obj\Debug\slider.g.resources
+D:\Sourcetree\slider\slider\slider\obj\Debug\slider.Properties.Resources.resources
+D:\Sourcetree\slider\slider\slider\obj\Debug\slider.csproj.GenerateResource.Cache

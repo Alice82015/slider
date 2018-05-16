@@ -27,21 +27,46 @@ namespace slider
 
         private void HeightSlider_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
         {
-            // 數值
+            // 身高數值
             double Value = Math.Round(HeightSlider.Value,2);
             HeightNumber.Text = Value.ToString();
 
-            // 位置
+            // 數字顯示位置
             double v = (Value / 200) * 320;
             Canvas.SetLeft(Height, v);
 
-            // BMI
+            // 計算BMI
             double h = double.Parse(HeightNumber.Text);
-            double w = double.Parse(HeightNumber.Text);
+            double w = double.Parse(WeightNumber.Text);
             double bmi = w / Math.Pow((h / 100), 2);
-            
 
-            // 分割
+            // 分割結果的整數與小數
+            string[] parts = Math.Round(bmi, 1).ToString().Split('.');
+
+            BmiNumber1.Text = parts[0];
+            if (parts.Length > 1)
+                BmiNumber2.Text = "." + parts[1];
+            else
+                BmiNumber2.Text = ".0";
+
+        }
+
+        private void WeightSlider_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+            // 體重數值
+            double Value = Math.Round(WeightSlider.Value, 2);
+            WeightNumber.Text = Value.ToString();
+
+            // 數字顯示位置
+            double v = (Value / 100) * 320;
+            Canvas.SetLeft(Weight, v);
+
+            // 計算BMI
+            double h = double.Parse(HeightNumber.Text);
+            double w = double.Parse(WeightNumber.Text);
+            double bmi = w / Math.Pow((h / 100), 2);
+
+            // 分割結果的整數與小數
             string[] parts = Math.Round(bmi, 1).ToString().Split('.');
 
             BmiNumber1.Text = parts[0];
